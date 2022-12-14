@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+header{
+width:100%;
+height:90vh;
+background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("realsumandeepwithsubhodeep.jpeg");
+background-size: cover;   
+background-attachment: fixed;
+}
+/*background-size cover means ak hi pic pura background main hogi*/
+nav{
+    width:100%;
+    height: 80px;
+    background:white;
+    color:rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 50px;
+    position: fixed;
+    top:0%;
+    border-radius: 5px;
+}
+
+.logo{
+    font-family: sans-serif;
+    font-size:2.6em;
+}
+.logo span{
+    color: rgb(244, 102, 13);
+}
+.menu a{
+    text-decoration:none;
+    padding: 10px 20px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.menu a:first-child{
+    color: rgb(234, 101, 13);
+}
+.menu a:hover{
+    color: deepskyblue;
+}
+.login a{
+text-decoration: none;
+background:rgb(240, 132, 8);
+color: aliceblue;
+padding: 10px 20px;
+margin-left:0px;
+border-radius: 10px;
+}
+.h-text{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h-text img{
+    border-radius: 400px;
+    
+}
+.h-text h1{
+    color:orangered;
+    font-family:sans-serif;
+    font-size:3em;
+    line-height:1.2em;
+}
+.h-text input{
+    width:60%;
+    padding:15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius:10px 0 0 10px;
+    
+}
+
+.h-text button{
+    position:relative;
+    width:20%;
+    padding:15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius:0px 10px 10px 0px ;
+    background-color: coral;
+    
+}
